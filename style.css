@@ -1,0 +1,112 @@
+/* element webiste : drible.com */
+/* menambahkan background costume : figma.com */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+
+/* font-family: 'Rubik Vinyl', cursive; */
+/* font-family: 'DM Sans', sans-serif; */
+
+
+/* header */
+
+.header .grid2 h1 {
+   font-family: 'Rubik Vinyl', cursive;
+   margin: 0;
+   transition: .5s;
+}
+
+.header .grid2 h1:hover {
+   transform: scale(1.1);
+   color: #add8e6;
+}
+
+.header .menu a   {
+   display: inline-block;
+   padding: 15px;
+   text-decoration: none;
+   font-family: 'DM Sans', sans-serif;
+   color: black;
+   transition: .5s;
+   font-weight: 500;
+}
+
+.header .menu a:hover {
+   color: lightblue;
+   transform: scale(1.2);
+}
+ 
+.header .menu a , .header .lock a   {
+   display: inline-block;
+   padding: 15px;
+   color: black;
+   text-decoration: none;
+}
+
+.header a.login   {
+   color: lightblue;
+   font-weight: 500;
+}
+
+
+.header a.register   {
+   background-color: lightblue;
+   color: white;
+   border-radius: 15px;
+   font-weight: 500;
+   transition: .8s;
+   
+}
+
+.header a.register:hover   {
+   background-color: rgb(81, 178, 226);
+}
+
+
+   
+   
+
+/* akhir header */
+
+
+/* HERO */
+
+.hero {
+   padding: 5% 0;
+   background-image: url(/img/Untitled.png);
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.hero-content h2  {
+   font-family: 'DM Sans', sans-serif;
+   font-size: 40px;
+   color: lightblue;
+}
+
+.hero-content p   {
+   font-family: 'DM Sans', sans-serif;
+   text-align: left;
+   line-height: 30px;
+   
+}
+
+
+/* Akhir Hero */
+
+/* footer */
+
+.footer p   {
+   color: lightblue;
+   font-size: 18px;
+   font-weight: 30px;
+   text-shadow: 5em;
+   
+}
+
+
+
